@@ -8,6 +8,7 @@ minutes: 5
 >
 > *   Explain how the shell relates to the keyboard, the screen, the operating system, and users' programs.
 > *   Explain when and why command-line interfaces should be used instead of graphical interfaces.
+> *   Shell consists of many utilities each of which do one thing really really well
 
 Nelle Nemo, a marine biologist,
 has just returned from a six-month survey of the
@@ -52,14 +53,14 @@ As a bonus,
 once she has put a processing pipeline together,
 she will be able to use it again whenever she collects more data.
 
-### What and Why
-
-At a high level, computers do four things:
-
--   run programs
--   store data
--   communicate with each other
--   interact with us
+> ### What and Why
+> 
+> At a high level, computers do four things:
+> 
+> -   run programs
+> -   store data
+> -   communicate with each other
+> -   interact with us
 
 They can do the last of these in many different ways,
 including direct brain-computer links and speech interfaces.
@@ -70,13 +71,13 @@ but their roots go back to Doug Engelbart's work in the 1960s,
 which you can see in what has been called
 "[The Mother of All Demos](http://www.youtube.com/watch?v=a11JDLBXtPQ)".
 
-Going back even further,
-the only way to interact with early computers was to rewire them.
-But in between,
-from the 1950s to the 1980s,
-most people used line printers.
-These devices only allowed input and output of the letters, numbers, and punctuation found on a standard keyboard,
-so programming languages and interfaces had to be designed around that constraint.
+> Going back even further,
+> the only way to interact with early computers was to rewire them.
+> But in between,
+> from the 1950s to the 1980s,
+> most people used line printers.
+> These devices only allowed input and output of the letters, numbers, and punctuation found on a standard keyboard,
+> so programming languages and interfaces had to be designed around that constraint.
 
 This kind of interface is called a
 **command-line interface**, or CLI,
@@ -103,7 +104,7 @@ A shell is a program like any other.
 What's special about it is that its job is to run other programs
 rather than to do calculations itself.
 The most popular Unix shell is Bash,
-the Bourne Again SHell
+the **Bourne Again SHell**
 (so-called because it's derived from a shell written by Stephen Bourne --- this
 is what passes for wit among programmers).
 Bash is the default shell on most modern implementations of Unix,
@@ -115,8 +116,8 @@ Commands are terse (often only a couple of characters long),
 their names are frequently cryptic,
 and their output is lines of text rather than something visual like a graph.
 On the other hand,
-the shell allows us to combine existing tools in powerful ways with only a few keystrokes
-and to set up pipelines to handle large volumes of data automatically.
+the **shell allows us to combine existing tools in powerful ways with only a few keystrokes
+and to set up pipelines to handle large volumes of data automatically**.
 In addition,
 the command line is often the easiest way to interact with remote machines.
 As clusters and cloud computing become more popular for scientific data crunching,
